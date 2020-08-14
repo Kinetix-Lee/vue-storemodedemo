@@ -1,7 +1,7 @@
 <template>
     <div>
         <small>TargetEditor.vue</small><br>
-        Edit target: <input type="text" v-model="store.target" placeholder="Edit me">
+        Edit target: <input type="text" v-model="store.state.target" placeholder="Edit me">
     </div>
 </template>
 
